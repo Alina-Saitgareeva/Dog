@@ -1,0 +1,13 @@
+/*============ШРИФТЫ==============*/
+
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/Georgia_regular.ttf)
+
+
+
+
+}
+ul.list-inline a {
+    display: inline-block;
+    }
