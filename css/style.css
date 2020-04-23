@@ -3,11 +3,37 @@
 @font-face {
     font-family: "Georgia";
     src: url(../fonts/Georgia_regular.ttf)
-
-
-
-
 }
+
+/*============HEADER==============*/
+.dog {
+    background: url(../img/Dog_main2.jpg);
+    background: cover;
+}
+header {
+    padding-top: 70px;
+}
+
+.title h3 {
+    font-family: Georgia;
+    font-size: 32px;
+    color: #af9482;
+}
+.title p{
+    font-size: 13px;
+    font-family: Arial;
+    color: #fff;
+}
+
 ul.list-inline a {
     display: inline-block;
-    }
+    color: #cdcdcd;
+    font-family: Georgia;
+    font-style: 15px;
+    padding-left: 37px;
+}
+ul.list-inline a:hover {
+    color: #fff;
+    text-decoration-color: #f1cdb3;
+
+}
