@@ -109,7 +109,7 @@ ul.list-inline a:hover {
     padding-bottom: 125px;
 }
 
-/*============PORTFOLIO==============*/
+/*============ACTION==============*/
 
 .action {
     background-color: #f6f6f6;
@@ -122,6 +122,7 @@ ul.list-inline a:hover {
 
 .carousel img {
     padding-bottom: 40px;
+    border-radius: 10px;
 }
 .carousel-item h5 {
     color: #545454;
@@ -162,6 +163,7 @@ ul.list-inline a:hover {
     margin: 50px;
     height: 422px;
     width: 270px;
+    border-radius: 10px;
 }
 
 .pages:hover {
@@ -179,6 +181,7 @@ ul.list-inline a:hover {
     border: none;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
+    margin-bottom: 68px;   
 }
 
 .action_button button:hover {
@@ -195,4 +198,32 @@ ul.list-inline a:hover {
     outline: none !important;
 }
 
+/*============HELP==============*/
 
+#various h2 {
+    margin-top: 72px;
+    margin-bottom: 70px;
+}
+
+.various {
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.various h5 {
+    margin-top: 30px;
+    font-family: Georgia;
+    font-size: 20px;
+    color: #545454;
+}
+.transport {
+    margin-top: 22px !important;
+}
+
+.collars {
+    margin-top: 33px !important;
+}
+
+.sleeping {
+    margin-top: 33px !important;
+}
