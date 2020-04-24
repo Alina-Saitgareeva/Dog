@@ -97,6 +97,7 @@ ul.list-inline a:hover {
 /*============PORTFOLIO==============*/
 .img-responsive {
     margin-top: 90px;
+    margin-left: 80px;
 }
 .portfolio h2 {
     padding-top: 120px;
@@ -198,7 +199,7 @@ ul.list-inline a:hover {
     outline: none !important;
 }
 
-/*============HELP==============*/
+/*============VARIOUS==============*/
 
 #various h2 {
     margin-top: 72px;
@@ -216,6 +217,7 @@ ul.list-inline a:hover {
     font-size: 20px;
     color: #545454;
 }
+
 .transport {
     margin-top: 22px !important;
 }
@@ -226,4 +228,62 @@ ul.list-inline a:hover {
 
 .sleeping {
     margin-top: 33px !important;
+}
+/*============DONATION==============*/
+
+.donation {
+    margin-top: 70px;
+}
+
+#donation {
+    margin-top: 35px;
+    background-color: #f6f6f6;
+}
+
+.donation h5 {
+    margin-top: 35px;
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+.donation img {
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+#donation-input {
+    margin-top: 35px;
+    width: 320px;
+    height: 48px;
+    background-color: #f1cdb3;
+    border-radius: 10px;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+}
+
+#donation-input:hover {
+    border: none;
+    box-shadow: none;
+}
+
+#donation-input:focus {
+    outline: none !important;
+}
+
+#donation-input:active {
+    outline: none !important;
+}
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+    color: #545454;
+    padding-left: 10px;
+}
+
+.donation p{
+    padding-top: 35px;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 87px;
 }
