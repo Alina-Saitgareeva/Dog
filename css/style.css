@@ -7,11 +7,14 @@
 
 /*============HEADER==============*/
 .dog {
-    background: url(../img/Dog_main2.jpg);
-    background: cover;
+    background: url(../img/Dog_main2.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
 }
+
 header {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .title h3 {
@@ -30,10 +33,59 @@ ul.list-inline a {
     color: #cdcdcd;
     font-family: Georgia;
     font-style: 15px;
-    padding-left: 37px;
+    padding-left: 35px;
+    padding-top: 13px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 }
+
 ul.list-inline a:hover {
     color: #fff;
     text-decoration-color: #f1cdb3;
-
 }
+/*============MAIN==============*/
+#main {
+    padding-top: 256px;
+}
+.main_header {
+    color: #d9d8d7;
+    font-size: 44px;
+    font-family: Georgia;
+    padding-bottom: 46px;
+}
+#main p {
+    font-family: Arial;
+    font-style: 15px;
+    color: #cdcdcd;
+    padding-bottom: 46px;
+}
+#make_friend {
+    font-family: Georgia;
+    font-size: 17px;
+    color: #292929;
+    width: 205px;
+    height: 52px;
+    background-color: #f1cdb3;
+    border-radius: 25px;
+    border: none;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    margin-bottom: 270px;
+}
+#make_friend:hover {
+    border: none;
+    box-shadow: none;
+    background-color: #daae8e;
+}
+#make_friend:active {
+    outline: none;
+}
+#make_friend:focus {
+    outline: none !important;
+}
+/*============PORTFOLIO==============*/
+.img-responsive {
+    margin-top: 90px;
+}
+
+
