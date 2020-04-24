@@ -179,6 +179,20 @@ ul.list-inline a:hover {
     border: none;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
-
 }
+
+.action_button button:hover {
+    border: none;
+    box-shadow: none;
+    background-color: #cfa485;
+}
+
+.action_button button:focus {
+    outline: none !important;
+}
+
+.action_button button:active {
+    outline: none !important;
+}
+
 
