@@ -4,7 +4,12 @@
     font-family: "Georgia";
     src: url(../fonts/Georgia_regular.ttf)
 }
-
+/*============GENERAL==============*/
+h2 {
+    font-size: 35px;
+    font-family: Georgia;
+    color: #545454;
+}
 /*============HEADER==============*/
 .dog {
     background: url(../img/Dog_main2.jpg) center;
@@ -86,6 +91,16 @@ ul.list-inline a:hover {
 /*============PORTFOLIO==============*/
 .img-responsive {
     margin-top: 90px;
+}
+.portfolio h2 {
+    padding-top: 120px;
+    padding-bottom: 45px;
+}
+.portfolio_text {
+    padding-bottom: 35px;
+}
+.portfolio_text2 {
+    padding-bottom: 125px;
 }
 
 
