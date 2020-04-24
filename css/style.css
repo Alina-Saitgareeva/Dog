@@ -1,16 +1,19 @@
-/*============ШРИФТЫ==============*/
-
+/*============FONTS==============*/
 @font-face {
     font-family: "Georgia";
     src: url(../fonts/Georgia_regular.ttf)
 }
+
 /*============GENERAL==============*/
+
 h2 {
     font-size: 35px;
     font-family: Georgia;
     color: #545454;
 }
+
 /*============HEADER==============*/
+
 .dog {
     background: url(../img/Dog_main2.jpg) center;
     background-size: cover;
@@ -48,7 +51,9 @@ ul.list-inline a:hover {
     color: #fff;
     text-decoration-color: #f1cdb3;
 }
+
 /*============MAIN==============*/
+
 #main {
     padding-top: 256px;
 }
@@ -88,6 +93,7 @@ ul.list-inline a:hover {
 #make_friend:focus {
     outline: none !important;
 }
+
 /*============PORTFOLIO==============*/
 .img-responsive {
     margin-top: 90px;
@@ -103,4 +109,76 @@ ul.list-inline a:hover {
     padding-bottom: 125px;
 }
 
+/*============PORTFOLIO==============*/
+
+.action {
+    background-color: #f6f6f6;
+}
+
+.action_header {
+    padding-top: 82px; 
+    padding-bottom: 73px;
+}
+
+.carousel img {
+    padding-bottom: 40px;
+}
+.carousel-item h5 {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: center;
+}
+.carousel-item button {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 17px;
+    border-radius: 27px;
+    width: 188px;
+    height: 54px;
+    background-color: #fafafa;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border: 2px solid #f1cdb3;
+    margin-top: 28px;
+}
+
+.carousel-item button:hover {
+    border: none;
+    box-shadow: none;
+    background-color: #f1cdb3;
+}
+
+.carousel-item button:focus {
+    outline: none !important;
+}
+
+.carousel-item button:active {
+    outline: none !important;
+}
+
+.pages {
+    background-color: #fafafa;
+    margin: 50px;
+    height: 422px;
+    width: 270px;
+}
+
+.pages:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.action_button button {
+    color: #545454;
+    background-color: #f1cdb3;
+    font-size: 17px;
+    font-family: Georgia;
+    width: 266px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+}
 
