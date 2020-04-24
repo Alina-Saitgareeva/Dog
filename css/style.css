@@ -231,7 +231,7 @@ ul.list-inline a:hover {
 }
 /*============DONATION==============*/
 
-.donation {
+.donation h2{
     margin-top: 70px;
 }
 
@@ -247,9 +247,13 @@ ul.list-inline a:hover {
 }
 
 .donation img {
-    padding-bottom: 5px;
-    padding-right: 20px;
+    margin: 70px 20px 5px 0px;
 }
+
+.image_form {
+    margin: 3px 20px 0px 0px !important;
+}
+
 #donation-input {
     margin-top: 35px;
     width: 320px;
@@ -286,4 +290,49 @@ ul.list-inline a:hover {
     font-style: italic;
     font-size: 12px;
     margin-bottom: 87px;
+}
+
+/*============FOOTER==============*/
+.footer {
+    background: url(../img/Pets.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+}
+
+.footer h2 {
+    color: #ffffff !important;
+    padding-top: 80px;
+    padding-bottom: 47px;
+}
+
+.footer h4 {
+    font-family: Times New Roman;
+    font-size: 20px;
+    color:#f1cdb3;
+    padding-top: 14px;
+}
+
+#mail {
+    margin: 15px;
+    height: 28px;
+    width: 40px;
+}
+
+#telephone {
+    margin: 15px;
+    height: 38px;
+    width: 38px;
+}
+
+#pin {
+    margin: 15px;
+    height: 32px;
+    width: 25px;
+}
+
+#pin_2 {
+    margin: 15px;
+    height: 33px;
+    width: 23px;
 }
