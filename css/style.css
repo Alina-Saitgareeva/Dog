@@ -263,6 +263,7 @@ ul.list-inline a:hover {
     box-shadow: none !important;
     outline: none !important;
     border: none;
+    padding-left: 20px;
 }
 
 #donation-input:hover {
