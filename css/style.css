@@ -30,6 +30,7 @@ header {
     font-size: 32px;
     color: #af9482;
 }
+
 .title p{
     font-size: 13px;
     font-family: Arial;
@@ -57,18 +58,21 @@ ul.list-inline a:hover {
 #main {
     padding-top: 256px;
 }
+
 .main_header {
     color: #d9d8d7;
     font-size: 44px;
     font-family: Georgia;
     padding-bottom: 46px;
 }
+
 #main p {
     font-family: Arial;
     font-style: 15px;
     color: #cdcdcd;
     padding-bottom: 46px;
 }
+
 #make_friend {
     font-family: Georgia;
     font-size: 17px;
@@ -82,19 +86,23 @@ ul.list-inline a:hover {
     transition-duration: 0.4s;
     margin-bottom: 270px;
 }
+
 #make_friend:hover {
     border: none;
     box-shadow: none;
     background-color: #daae8e;
 }
+
 #make_friend:active {
     outline: none;
 }
+
 #make_friend:focus {
     outline: none !important;
 }
 
 /*============PORTFOLIO==============*/
+
 .img-responsive {
     margin-top: 90px;
     margin-left: 80px;
@@ -123,14 +131,16 @@ ul.list-inline a:hover {
 
 .carousel img {
     padding-bottom: 40px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
+
 .carousel-item h5 {
     color: #545454;
     font-family: Georgia;
     font-size: 20px;
     text-align: center;
 }
+
 .carousel-item button {
     color: #545454;
     font-family: Georgia;
@@ -143,6 +153,7 @@ ul.list-inline a:hover {
     transition-duration: 0.4s;
     border: 2px solid #f1cdb3;
     margin-top: 28px;
+    margin-bottom: 36px;
 }
 
 .carousel-item button:hover {
@@ -161,10 +172,8 @@ ul.list-inline a:hover {
 
 .pages {
     background-color: #fafafa;
-    margin: 50px;
-    height: 422px;
-    width: 270px;
-    border-radius: 10px;
+    margin: 0px 50px 50px 0px;
+    border-radius: 15px;
 }
 
 .pages:hover {
