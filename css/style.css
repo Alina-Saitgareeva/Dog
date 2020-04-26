@@ -104,16 +104,17 @@ ul.list-inline a:hover {
 /*============PORTFOLIO==============*/
 
 .img-responsive {
-    margin-top: 90px;
-    margin-left: 80px;
+    margin: 90px 0px 0px 80px;
 }
+
 .portfolio h2 {
-    padding-top: 120px;
-    padding-bottom: 45px;
+    padding: 120px 0px 45px 0px;
 }
+
 .portfolio_text {
     padding-bottom: 35px;
 }
+
 .portfolio_text2 {
     padding-bottom: 125px;
 }
@@ -125,8 +126,7 @@ ul.list-inline a:hover {
 }
 
 .action_header {
-    padding-top: 82px; 
-    padding-bottom: 73px;
+    padding: 82px 0px 73px 0px;
 }
 
 .carousel img {
@@ -201,18 +201,17 @@ ul.list-inline a:hover {
 }
 
 .action_button button:focus {
-    outline: none !important;
+    outline: none;
 }
 
 .action_button button:active {
-    outline: none !important;
+    outline: none;
 }
 
 /*============VARIOUS==============*/
 
 #various h2 {
-    margin-top: 72px;
-    margin-bottom: 70px;
+    margin: 72px 0px 70px 0px;
 }
 
 .various {
@@ -228,7 +227,7 @@ ul.list-inline a:hover {
 }
 
 .transport {
-    margin-top: 22px !important;
+    margin-top: 22px!important;
 }
 
 .collars {
@@ -291,7 +290,6 @@ ul.list-inline a:hover {
 ::-webkit-input-placeholder {
     font-size: 18px;
     color: #545454;
-    padding-left: 10px;
 }
 
 .donation p{
